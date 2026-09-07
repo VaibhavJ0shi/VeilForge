@@ -150,7 +150,7 @@ The encrypted payload and VeilForge header are included within this capacity.
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/VaibhavJ0shi/VeilForge.git
 cd VeilForge
 ```
 
