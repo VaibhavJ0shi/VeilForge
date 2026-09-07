@@ -338,51 +338,6 @@ VeilForge
     └── Exceptions
 ```
 
-### Project Structure
-
-```text
-VeilForge/
-│
-├── main.py
-├── config.py
-├── pyproject.toml
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── core/
-│   ├── encoder.py
-│   ├── decoder.py
-│   ├── capacity.py
-│   ├── validator.py
-│   └── payload.py
-│
-├── image_stego/
-│   ├── encoder.py
-│   ├── decoder.py
-│   ├── lsb.py
-│   └── validator.py
-│
-├── crypto/
-│   ├── encryptor.py
-│   ├── decryptor.py
-│   ├── key_manager.py
-│   └── key_exchange.py
-│
-├── storage/
-│   ├── file_reader.py
-│   └── file_writer.py
-│
-├── utils/
-│   ├── logger.py
-│   ├── helpers.py
-│   └── exceptions.py
-│
-└── tests/
-    ├── test_image.py
-    └── test_crypto.py
-```
-
 ---
 
 
