@@ -5,3 +5,5 @@ __pycache__/
 .env
 *.log
 keys/
+build/
+*.egg-info
